@@ -1,0 +1,39 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333333;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#content {
+    padding: 5px;
+    min-height: 30px;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    max-width: 600px;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+pre {
+    background-color: #1E1E1E;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    text-decoration-line: underline;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
